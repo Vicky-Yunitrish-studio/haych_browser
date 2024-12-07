@@ -1,26 +1,36 @@
 {
   "project_info": {
-    "project_number": "683044546421",
-    "project_id": "general-app-service",
-    "storage_bucket": "general-app-service.firebasestorage.app"
+    "project_number": "567556118089",
+    "project_id": "haych-browser",
+    "storage_bucket": "haych-browser.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:683044546421:android:76a5d9a87dfee8945e553c",
+        "mobilesdk_app_id": "1:567556118089:android:f5ea252989e52db0645198",
         "android_client_info": {
-          "package_name": "net.vicky_yunitrish_studio.account_app_template"
+          "package_name": "haych.app.browser"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "567556118089-j8op1s8a6mh9o5t3ipe1jdntu5pbej4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCKI1fHr7YdIKtV4LPnX1cMSsAOAeNPsNM"
+          "current_key": "AIzaSyCbmso6_udVRY3ymp6rMdZH5tA9VVGhfs0"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567556118089-j8op1s8a6mh9o5t3ipe1jdntu5pbej4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

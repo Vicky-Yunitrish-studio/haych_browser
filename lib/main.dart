@@ -1,6 +1,6 @@
-import 'package:account_app_template/common/combined_notifier.dart';
-import 'package:account_app_template/firebase_options.dart';
-import 'package:account_app_template/screen/login_page.dart';
+import 'package:haych_browser/common/combined_notifier.dart';
+import 'package:haych_browser/firebase_options.dart';
+import 'package:haych_browser/screen/login_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

@@ -57,7 +57,7 @@ class LoginPage extends StatelessWidget {
   Future<void> _handleGoogleSignIn(BuildContext context) async {
     final GoogleSignIn googleSignIn = GoogleSignIn(
       clientId:
-          '683044546421-eik7kdfrerbvai6qri496pb7k73u2re8.apps.googleusercontent.com',
+          '567556118089-j8op1s8a6mh9o5t3ipe1jdntu5pbej4g.apps.googleusercontent.com',
     );
 
     try {

@@ -23,20 +23,11 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,20 +41,50 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCKSGysDSi3eBKpFlAkwaWHWABv7Ki1ryk',
-    appId: '1:683044546421:web:e328d7c64ae414e75e553c',
-    messagingSenderId: '683044546421',
-    projectId: 'general-app-service',
-    authDomain: 'general-app-service.firebaseapp.com',
-    storageBucket: 'general-app-service.firebasestorage.app',
-    measurementId: 'G-HVQ2TS4W2M',
+    apiKey: 'AIzaSyBXOaMsIwz7klToZTAy1woq1Tv0c864vpA',
+    appId: '1:567556118089:web:7a638d9cebffbedf645198',
+    messagingSenderId: '567556118089',
+    projectId: 'haych-browser',
+    authDomain: 'haych-browser.firebaseapp.com',
+    storageBucket: 'haych-browser.firebasestorage.app',
+    measurementId: 'G-RLHZE0DRX3',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCKI1fHr7YdIKtV4LPnX1cMSsAOAeNPsNM',
-    appId: '1:683044546421:android:76a5d9a87dfee8945e553c',
-    messagingSenderId: '683044546421',
-    projectId: 'general-app-service',
-    storageBucket: 'general-app-service.firebasestorage.app',
+    apiKey: 'AIzaSyCbmso6_udVRY3ymp6rMdZH5tA9VVGhfs0',
+    appId: '1:567556118089:android:f5ea252989e52db0645198',
+    messagingSenderId: '567556118089',
+    projectId: 'haych-browser',
+    storageBucket: 'haych-browser.firebasestorage.app',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyACIEzqsWPqGkX_vewrcx7WGOQhl2IJLIQ',
+    appId: '1:567556118089:ios:9c01268802443aed645198',
+    messagingSenderId: '567556118089',
+    projectId: 'haych-browser',
+    storageBucket: 'haych-browser.firebasestorage.app',
+    iosClientId: '567556118089-0vjbbkv624t6m2829fn6q8giglpnq53m.apps.googleusercontent.com',
+    iosBundleId: 'haych.app.browser',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyACIEzqsWPqGkX_vewrcx7WGOQhl2IJLIQ',
+    appId: '1:567556118089:ios:d57efa8a32dc2859645198',
+    messagingSenderId: '567556118089',
+    projectId: 'haych-browser',
+    storageBucket: 'haych-browser.firebasestorage.app',
+    iosClientId: '567556118089-4vl9d4doe0rb4lr7t1qo9fsprjk6n5nc.apps.googleusercontent.com',
+    iosBundleId: 'com.example.adaptorGames',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyBXOaMsIwz7klToZTAy1woq1Tv0c864vpA',
+    appId: '1:567556118089:web:31628b3f1c31ffe9645198',
+    messagingSenderId: '567556118089',
+    projectId: 'haych-browser',
+    authDomain: 'haych-browser.firebaseapp.com',
+    storageBucket: 'haych-browser.firebasestorage.app',
+    measurementId: 'G-XT85J1B2G5',
   );
 }

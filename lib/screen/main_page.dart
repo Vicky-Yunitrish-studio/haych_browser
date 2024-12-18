@@ -1,8 +1,9 @@
-import 'package:haych_browser/common/combined_notifier.dart';
-import 'package:haych_browser/common/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:haych_browser/screen/display_page.dart';
 import 'package:provider/provider.dart';
+import 'package:haych_browser/common/combined_notifier.dart';
+import 'package:haych_browser/common/components.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -14,7 +15,7 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   int _counter = 0;
 
-  void _incrementCounter() {
+  void _incrementCounter() async {
     setState(() {
       _counter++;
     });
@@ -35,6 +36,18 @@ class _MainPageState extends State<MainPage> {
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
+            ),
+            ElevatedButton(
+              onPressed: () => {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) =>
+                        const DisplayPage('http://blissfield.4hotel.tw/vod2/'),
+                  ),
+                )
+              },
+              child: const Text("Disaplay Page"),
             ),
           ],
         ),
